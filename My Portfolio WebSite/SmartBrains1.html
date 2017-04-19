@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<style>			
+			:root {				
+				--green: #539F44;
+				--blue-primary: #1F62AE;
+				--blue-secondary: #3E91C5;
+				--light-grey: #DEDEDE;
+				--dark-grey: #4D4D4D;
+			}
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;	
+			}
+			body {
+				margin: 0;
+			}		
+			header {
+				width: 100%;
+				background-color: var(--light-grey);
+				position: fixed;
+				top: 0;
+				left: 0;
+				margin: 0;
+				height: 82px;
+				z-index: 5;
+			}
+			.logo {
+				display: inline-block;
+				width: 50%;
+				line-height: 82px;	
+				padding-left: 60px;
+			}
+			nav {
+				display: inline-block;
+				width: 50%;
+				vertical-align: middle;
+			}
+			footer {
+				width: 100%;
+				background-color: white;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				height: 100px;
+				z-index: 5;
+			}
+			#codeninja-credit {
+				width: 50%;
+				display: inline-block;
+				padding-left: 25px;
+				position: absolute;
+				top: 50%;
+				left: 0;
+				transform: translateY(-50%);
+			}
+			#codeninja-credit img {
+				vertical-align: middle;
+				margin-right: 10px;
+			}
+			#social-media {
+				width: 50%;
+				display: inline-block;
+				text-align: right;
+				padding-right: 30px;
+				position: absolute;
+				top: 50%;
+				right: 0;
+				transform: translateY(-50%);
+			}
+			#social-media img {
+				margin-left: 12px;
+			}
+			h1 {
+				color: var(--blue-primary);
+			}
+			h2 {
+				color: var(--dark-grey);
+				margin:0;
+			}
+			p {
+				color: var(--blue-primary);
+			}
+			a {
+				color: var(--blue-secondary);
+			}
+			#banner {
+				margin-top: 82px;
+				padding-top: 55px;
+				height: 290px;
+			}
+			#banner h1, #banner p {
+				margin-left: 65px;
+			}
+			#banner img {
+				position: absolute;
+				top: 112px;
+				right: 45px;
+			}
+			#call-to-action {
+				background-color: var(--green);
+				height: 290px;
+				margin-bottom: ;	
+			}
+			#call-to-action .button-container {
+				position: relative;
+				width: 100%;
+				text-align: center;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			#call-to-action a {
+				margin: 0 3%;
+				display: inline-block;
+				text-align: center;
+			}
+			#call-to-action a p {
+				color: white;
+				margin-top: 10px;
+			}
+			#button-portfolio, #button-blog, #button-about-me {
+				width: 188px;
+				height: 188px;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			#button-portfolio {	
+				background-image: url("images/btn_portfolio.png");
+			}
+			#button-blog {
+				background-image: url("images/btn_blog.png");
+			}
+			#button-about-me {
+				background-image: url("images/btn_aboutme.png");
+			}
+			.button-border {
+				border: 13px solid rgba(255,255,255,0.5);
+				border-radius: 94px;
+				height: 188px;
+			}
+		</style>
+		</head>	
+		<body>
+			<header>
+				<h2 class="logo">JOYRAJSEN</h2><nav>Our navigation will go here</nav>
+			</header>
+			<section id="banner">
+				<h1>Front-End</h1>
+				<h1>Web eveloper</h1>
+				<p>I am a freelance with a passion for web design</p>
+				<img src="images/skills_tree.png" />
+			</section >
+			<section id="call-to-action">
+				<div class="button-container">
+					<a>
+						<div id="button-portfolio"><div class="button-border"></div></div>
+						<p>portfolio</p>
+					</a>
+					<a>
+						<div id="button-blog"><div class="button-border"></div></div>
+						<p>blog</p>
+					</a>
+					<a>
+						<div id="button-about-me"><div class="button-border"></div></div>
+						<p>about me</p>
+					</a>
+				</div>
+			</section>
+			<footer>
+			<div id="codeninja-credit">
+					<img src="images/logo_codeninja.png" alt="code ninja logo">
+					<a>#codelikeaninja</a>
+				</div>
+				<div id="social-media">
+					<img src="images/logo_twitter.png" alt="twitter logo">
+					<img src="images/logo_facebook.png" alt="facebook logo">
+					<img src="images/logo_linkedin.png" alt="linkedin logo">
+				</div>
+			</footer>
+         </body> 
+</html>

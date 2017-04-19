@@ -1,0 +1,36 @@
+# This is a header
+## This is an even smaller header
+### Even smaller...
+###### Quite small
+Here is some normal text. A paragraph, even!
+*This text is in italics.*
+**This text is in bold.**
+***This text is in both.***
+~~This text is rendered with strikethrough.~~
+Sometimes you want to embed some \*stylized text\*
+right into **your paragraph.** Pretty cool, right!
+* Item
+* Item
+* Another item
+or
++ Item
++ Item
++ One more item
+or
+- Item
+- Item
+- One last item
+1. Item one
+2. Item two
+3. Item three
+w/ sub-lists
+1. Item one
+2. Item two
+3. Item three
+    1. Sub-item
+    2. Sub-item
+4. Item four
+---
+[I'm a link to a web page!](http://www.Code-Ninja.co)
+![alt text](http://code-ninja.co/public/images/logo-ninja.png)
+![local photo](assets/profile.png)

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Smart Brains </title>
+		<style>
+
+			:root {
+				--green: #539F44;
+				--blue-primary: #1F62AE;
+				--blue-secondary: #3E91C5;
+				--light-grey: #DEDEDE;
+				--dark-grey: #4D4D4D;
+				}
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+
+					/*border: 2px green dashed;*/
+				}
+			h1 {
+					color: var(--blue-primary);
+				} 
+			h3 {
+					color:var(--blue-secondary);
+				}
+			a {
+				color:var(--blue-secondary);
+				}
+			p {
+				color:var(--blue-secondary);
+			}
+			h2 {
+				color:var(--dark-grey);
+				/*margin: 0;*/
+			}
+			body{
+				/*margin: 0;*/
+			}
+			header {
+				background-color:var(--light-grey);				
+				/*margin: 0;*/
+				padding: 0px 30px 0px 60px;
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				width: 100%;
+				height: 82px;
+				/*
+				border: 2px solid red;
+				border-radius: 25px;
+				border-left: 5px solid tomato;
+				border-bottom: 6px groove green;
+				border-top-left-radius: 25px;
+				border-bottom-right-radius: 15px;*/
+			}
+			/* Id's get # and Class get "." */
+			.logo{
+				display: inline-block;
+				/*border: 1px solid blue;*/
+				width: 50%;
+				line-height: 82px;
+			}
+			nav {
+				color: var(--dark-grey);
+				display: inline-block;
+				/*border: 1px solid blue;*/
+				width: 50%;
+			}
+			#banner {
+				background-image: url(images/skills_tree.png); 
+				background-repeat: no-repeat; 
+				background-position: right center; 
+				height: 320px;
+			}
+			#call-to-action {
+				background-color: var(--green);
+				box-sizing: border-box;
+				width: 100px;
+/*				margin: 30px;
+				padding: 20px;*/
+				border:10px solid red;
+			}
+			footer {
+				/*//padding: 20px 30px 20px 60px;*/
+				position: fixed;
+				width: 100%;
+				height: 100px;
+				border: 2px solid blue;
+				bottom: 0px;
+				left: 0px;
+			}
+			#code-ninja{
+				background-color: var(--blue-primary);
+				border: 2px solid blue;
+				display: inline-block;
+				width: 50%;
+								
+
+			}
+			#social-media{
+				background-color: var(--blue-secondary);
+				border: 2px solid blue;
+				display: inline-block;
+				width: 50%
+			}
+
+
+		</style>
+
+
+	</head>
+
+	<body>
+
+	  <header >
+	    <h2 class="logo"> Vivian </h2><nav>Home Portfolio About Contact </nav>
+	    
+	  </header>
+
+		<section id="banner" >
+			<h1> Front -End </h1>
+			<h1> Web Developer </h1>
+			<p> I am a freelance WebSite designers </p>
+		</section>
+
+		<section id="call-to-action">
+			<img src="images/btn_blog.png" alt="blog button" width="187" height="187">
+			<img src="images/btn_portfolio.png" alt="Portfolio button" height="187" width="187">
+			<img src="images/btn_aboutme.png" alt="About me button" height="187" width="187">
+				
+		</section>
+
+		<footer>
+			<div id="code-ninja">
+				<img  src="images/logo_codeninja.png">
+				<a > #code like a ninja </a>				
+			</div>
+
+			<div id="social-media">
+				<img  src="images/logo_facebook.png">
+				<img  src="images/logo_linkedin.png">
+				<img  src="images/logo_twitter.png">
+			</div>
+
+		</footer>
+
+	</body>
+
+</html>
